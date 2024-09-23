@@ -1,0 +1,41 @@
+/* DataTable.css */
+
+/* Wrap the table in a horizontally scrollable container */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    /* Horizontal scrolling */
+    margin-bottom: 20px;
+    /* Spacing between table and pagination */
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.custom-table th {
+    background-color: #c0e3e5;
+    color: black;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.custom-table td {
+    background-color: #ffffff;
+    padding-left: 8px;
+    text-align: left;
+    border: 1px solid #ebebeb;
+    font-size: 10px;
+    min-width: 100px;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #ebebeb;
+}
+
+.custom-table tbody tr {
+    border-bottom: 1px solid #ebebeb;
+}

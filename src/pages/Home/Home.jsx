@@ -5,7 +5,9 @@ const Home = () => {
     <div>
       <h1>Home</h1>
       <nav>
-        <Link to="/users">Users</Link> | <Link to="/products">Products</Link>
+        <Link to="/users">Users</Link>
+        {" | "}
+        <Link to="/products">Products</Link>
       </nav>
     </div>
   );

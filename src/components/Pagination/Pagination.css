@@ -1,0 +1,40 @@
+/* Pagination.css */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    margin-top: 20px;
+    /* Add space between table and pagination */
+}
+
+.pagination-container button {
+    margin: 0 10px;
+    /* Add space between pagination buttons */
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    /* Adjust size as needed */
+    margin: 0 5px;
+    /* Spacing between buttons */
+    color: #322625;
+    /* Customize the color */
+}
+
+.icon-button:disabled {
+    color: #ccc;
+    /* Color for disabled buttons */
+    cursor: not-allowed;
+}
+
+.page-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 20px;
+}

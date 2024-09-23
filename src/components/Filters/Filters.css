@@ -1,0 +1,68 @@
+/* Filters.css */
+.filters-container {
+    display: flex;
+    justify-content: left;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    margin-bottom: 20px;
+    /* Add space between filters and table */
+
+}
+
+.filters-container select,
+.filters-container input {
+    border: none;
+    /* Remove border */
+    outline: none;
+    margin-right: 10px;
+    /* Space between elements */
+    padding: 5px;
+    /* Padding for better touch target */
+}
+
+.filters-container button {
+    background: none;
+    /* Remove default button styles */
+    border: none;
+    cursor: pointer;
+    /* Change cursor to pointer */
+    padding: 0;
+}
+
+.search-filter input {
+    border: 1px solid #ccc;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    /* Adjust size as needed */
+    margin: 0 5px;
+    /* Spacing between buttons */
+    color: #322625;
+    /* Customize the color */
+}
+
+.icon-button:disabled {
+    color: #ccc;
+    /* Color for disabled buttons */
+    cursor: not-allowed;
+}
+
+.separator {
+    width: 1px;
+    /* Width of the separator line */
+    height: 30px;
+    /* Height of the separator line */
+    background-color: #ccc;
+    /* Color of the separator line */
+    margin: 0 10px;
+    /* Spacing around the separator */
+}
+
+.filter-group input {
+    border: 1px solid #ccc;
+}
