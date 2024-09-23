@@ -1,7 +1,10 @@
+import Navigation from "../../components/Navigation/Navigation";
+import "./Users.css";
+
 const Users = () => {
   return (
     <div>
-      <h1>Users</h1>
+      <Navigation pageName="Users" />
     </div>
   );
 };

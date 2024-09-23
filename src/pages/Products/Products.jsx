@@ -1,7 +1,10 @@
+import Navigation from "../../components/Navigation/Navigation";
+import "./Products.css";
+
 const Products = () => {
   return (
     <div>
-      <h1>Products</h1>
+      <Navigation pageName="Products" />
     </div>
   );
 };
