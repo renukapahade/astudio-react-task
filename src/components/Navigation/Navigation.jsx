@@ -1,7 +1,7 @@
 import "./Navigation.css";
 import { Link } from "react-router-dom";
 
-const Navigation = ({ pageName }) => {
+const Navigation = ({ pageName = "" }) => {
   return (
     <div className="navigation">
       <Link to="/">Home </Link>
